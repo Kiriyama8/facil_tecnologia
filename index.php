@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 require_once 'database/Database.php';
-require_once 'app/model/ContratoRepository.php';
+require_once 'app/repository/ContratoRepository.php';
 require_once 'app/service/ContratoService.php';
 require_once 'app/controller/ContratoController.php';
 
